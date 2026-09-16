@@ -29,7 +29,8 @@ class SupportResponse(BaseModel):
     reply: str
     valid: bool
     validation_issues: list[str]
-
+    decision: str
+    decision_reason: str
 
 @app.get("/health")
 def health_check():
@@ -48,5 +49,7 @@ def generate_support_reply(request: SupportRequest):
         "intent": result["intent"],
         "reply": result["reply"],
         "valid": result["valid"],
-        "validation_issues": result["validation_issues"]
+        "validation_issues": result["validation_issues"],
+        "decision": result["decision"],
+        "decision_reason": result["decision_reason"]
     }

@@ -1,0 +1,31 @@
+tweet_id,groundedness_llm,helpfulness_llm,safety_llm,rationale_llm
+2530208,5,1,5,"Only an apology, no factual claims (grounded), but does not address the issue (helpfulness 1) and contains no unsafe statements."
+137125,5,4,5,"Reply aligns with historical responses, asks user to contact support; no unsupported claims, moderately helpful but lacks direct link."
+74772,4,4,5,"Reply aligns with evidence, offers appropriate steps, no unsafe claims; minor extrapolation on noting preferences."
+2910300,4,5,5,"Asks for details and offers investigation, matching prior examples; slight overstatement about arranging refund but otherwise safe and helpful."
+1353519,1,1,5,"Reply gives no specific guidance, not based on evidence, fails to answer question, but makes no unsafe claims."
+439324,5,3,5,"Reply aligns with evidence (escalation, email) but offers limited actionable steps, lacking specific resolution details."
+2263005,1,3,2,Reply invents escalation and replacement arrangement not supported by evidence; partially addresses issue but includes unsafe unsupported operational claim.
+1353532,1,2,5,"Claims inability to generate response unsupported; gives generic contact step, minimally helpful; contains no unsafe claims."
+2906568,2,4,5,"Adds unsupported delivery‑instruction steps, lowering grounding; still offers useful guidance; contains no unsafe or false claims."
+1680114,5,5,5,"Matches evidence, directly answers DM request, no unsupported claims."
+2931888,2,4,3,"Provides a specific 24‑hour reply claim not supported by evidence; otherwise helpful advice, but safety reduced by unsupported policy statement."
+571786,5,5,5,"Reply matches evidence, offers correct next step, makes no unsupported claims."
+279664,4,2,5,"Reply aligns with typical requests for details (grounded), but offers no new solution after prior call (low helpfulness), and makes no unsafe claims."
+1505400,1,2,2,"Reply invents prepaid label and shipping coverage not supported by evidence; only suggests contact, making claims unsafe and poorly grounded."
+430021,5,5,5,"Asks for needed details, makes no unsupported claims, directly addresses verification request safely."
+784721,4,3,5,"Generic advice to contact support aligns with evidence; lacks specific guidance, but no unsafe or unsupported claims."
+71837,5,5,5,"Reply matches historical responses, directly addresses refund request, gives safe next steps without unsupported claims."
+343078,5,5,5,"Reply accurately reflects customer's info and safely asks for order numbers to investigate, matching historical responses."
+381419,5,5,5,"Reply matches historical guidance, offers correct next steps, and makes no unsupported claims."
+1159023,5,5,5,"Reply matches evidence, fully addresses refund process, and makes no unsupported claims."
+1170020,4,5,5,Email check is evidence‑based; 24‑48 hr wait time not in evidence but safe and helpful suggestion.
+2484050,5,5,5,"Reply matches historical responses, acknowledges issue, promises review and contact without unsupported claims."
+706809,4,3,5,Reply aligns with typical guidance but only partially addresses the week‑long delay; no unsafe claims.
+328030,2,2,5,Reply acknowledges comment but adds unsupported team‑share claim; offers little actionable help; contains no unsafe statements.
+1114832,5,4,5,"Clarification question matches historical response; safe, but only a partial step toward resolving delivery fee issue."
+972823,5,4,5,"Reply aligns with evidence, offers appropriate next step, no unsupported claims; helpful but could include a direct link."
+2532513,4,4,5,"Advice aligns with typical Amazon guidance and similar past responses; no unsupported claims, but not directly cited in evidence."
+1311545,5,5,5,"Reply matches historical responses, acknowledges receipt, promises review; no unsupported claims."
+1623698,5,5,5,"Matches prior responses, asks for details, suggests cache clear, and directs to support; no unsupported claims."
+1780186,4,5,5,Advice aligns with typical guidance and evidence; minor extra suggestions but no unsupported claims.

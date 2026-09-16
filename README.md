@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 ## Hiver - AI Customer Support Agent
+=======
+# Hiver - AI Customer Support Agent
+>>>>>>> 7c03980 (Complete Hiver support agent evaluation)
 
 An AI-powered customer support system that understands customer messages, finds similar past support conversations, generates a helpful reply, and checks the reply before returning it.
 
@@ -877,4 +881,38 @@ Pipeline Errors:     0
 The project also includes error analysis to identify where the intent classifier needs further improvement.
 
 
+<<<<<<< HEAD
+=======
+## What is misleading about my headline number?
+
+The headline result is 78.0% intent-classification accuracy on a 150-example
+golden evaluation set. This number is useful, but it should not be interpreted
+as an overall measure of support-agent quality.
+
+First, the evaluation set is relatively small and contains an intentionally
+constructed distribution across 13 intents. Therefore, the result may not
+represent the full distribution of incoming Amazon support messages.
+
+Second, accuracy hides differences between intents. The model performs
+differently across categories, and several errors occur between semantically
+similar intents such as `delivery_issue`, `delivery_address_options`, and
+`other_support`.
+
+Third, intent accuracy does not measure the quality of the generated customer
+reply. A message can receive the correct intent while the generated response
+is still insufficiently grounded or helpful.
+
+Fourth, the response-validation result was 100% on the evaluated pipeline
+samples, but validation is a separate safety/quality check and does not imply
+that every generated response is factually correct.
+
+Finally, the LLM-as-judge evaluation showed only moderate agreement with the
+reviewer reference ratings. Quadratic weighted kappa was 0.443 for groundedness,
+0.614 for helpfulness, and 0.325 for safety. This means the judge itself should
+not be treated as an unquestionable ground truth.
+
+Therefore, I report 78.0% as the headline classification result, while also
+reporting macro F1, per-intent results, failure analysis, response validation,
+and judge-reviewer agreement.
+>>>>>>> 7c03980 (Complete Hiver support agent evaluation)
 

@@ -1,0 +1,4 @@
+model,accuracy,macro_f1
+Majority baseline,0.18,0.02346805736636245
+TF-IDF + Logistic Regression,0.38666666666666666,0.35249499470742623
+Embedding classifier,0.78,0.7868128224905718

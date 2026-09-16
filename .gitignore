@@ -7,4 +7,3 @@ __pycache__/
 # Large local data/model artifacts
 data/processed/amazon_clean.csv
 data/processed/amazon_support.csv
-models/retrieval_embeddings.npy

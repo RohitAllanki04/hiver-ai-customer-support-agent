@@ -36,6 +36,14 @@ for message in test_messages:
     print("\nValidation issues:")
     print(result["validation_issues"])
 
+    print()
+    print("Decision:")
+    print(result["decision"])
+
+    print()
+    print("Decision reason:")
+    print(result["decision_reason"])
+
     print("\nRetrieved examples:")
 
     for i, example in enumerate(result["retrieved_examples"], start=1):
