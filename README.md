@@ -1,6 +1,5 @@
 
-````
-# Hiver - AI Customer Support Agent
+## Hiver - AI Customer Support Agent
 
 An AI-powered customer support system that understands customer messages, finds similar past support conversations, generates a helpful reply, and checks the reply before returning it.
 
@@ -876,8 +875,6 @@ Pipeline Errors:     0
 ```
 
 The project also includes error analysis to identify where the intent classifier needs further improvement.
-
-````
 
 
 
