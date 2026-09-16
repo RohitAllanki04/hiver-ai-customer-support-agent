@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Large local data/model artifacts
+data/processed/amazon_clean.csv
+data/processed/amazon_support.csv
+models/retrieval_embeddings.npy

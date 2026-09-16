@@ -1,0 +1,14 @@
+,account_access,delivery_address_options,delivery_issue,order_cancellation,order_status,other_support,payment_billing,prime_membership,product_availability_pricing,product_issue,refund,return_replacement,seller_marketplace
+account_access,4,0,0,0,0,0,0,0,0,0,0,0,0
+delivery_address_options,0,3,0,0,0,0,0,0,0,0,0,1,0
+delivery_issue,0,4,8,1,1,2,1,0,3,0,0,0,1
+order_cancellation,0,0,0,7,0,0,0,0,0,0,0,0,0
+order_status,0,0,0,0,7,0,0,0,0,0,0,0,0
+other_support,4,1,0,0,0,5,0,0,1,1,1,4,1
+payment_billing,0,0,0,0,0,0,7,0,0,0,0,0,0
+prime_membership,0,0,0,0,0,0,0,7,0,0,0,0,0
+product_availability_pricing,0,0,0,0,0,0,0,1,4,1,0,0,0
+product_issue,0,0,0,0,0,1,0,0,0,5,0,0,0
+refund,0,0,0,0,0,0,0,0,0,0,7,0,0
+return_replacement,0,0,0,0,0,0,0,0,0,0,0,3,0
+seller_marketplace,0,0,0,0,0,0,0,0,0,1,0,0,6
