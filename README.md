@@ -879,13 +879,5 @@ The project also includes error analysis to identify where the intent classifier
 
 ````
 
-### One important correction
 
-Your current uploaded README has escaped Markdown such as `\#`, `\##`, and `&#x20;`, which can make the raw file look broken. :contentReference[oaicite:0]{index=0}
-
-When you paste the version above into Notepad, **do not add backslashes before `#`, `---`, `*`, etc.** The first line should literally be:
-
-```text
-# Hiver - AI Customer Support Agent
-````
 
